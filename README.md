@@ -4,7 +4,7 @@ every time it's button is being clicked.
 
 ### Prerequisites
 
-visual studio 2017, SQL Server 
+visual studio 2017
 
 ## Built With
 
