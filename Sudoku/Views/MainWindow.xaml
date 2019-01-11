@@ -1,0 +1,137 @@
+﻿<Window x:Name="window" x:Class="Sudoku_Wpf_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sudoku_Wpf_2"
+        mc:Ignorable="d"
+        Title="Sudoku" Height="584" Width="619">
+    <Grid x:Name="grid">
+        <Button x:Name="btn0" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="113,176,0,0" Height="28" Click="btn_Click"/>
+        <Button x:Name="btn2" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="195,176,0,0" Height="28"/>
+        <Button x:Name="btn1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="154,176,0,0" Height="28" RenderTransformOrigin="2.423,0.671"/>
+
+        <Button x:Name="btn9" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="113,209,0,0" Height="28"/>
+        <Button x:Name="btn11" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="195,209,0,0" Height="28"/>
+        <Button x:Name="btn10" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="154,209,0,0" Height="28" RenderTransformOrigin="2.423,0.671"/>
+
+        <Button x:Name="btn18" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="113,242,0,0" Height="28"/>
+        <Button x:Name="btn20" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="195,242,0,0" Height="28"/>
+        <Button x:Name="btn19" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="154,242,0,0" Height="28" RenderTransformOrigin="2.423,0.671"/>
+
+        <Button x:Name="btn3" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="238,176,0,0" Height="28" Background="#FF26E21D"/>
+        <Button x:Name="btn5" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="320,176,0,0" Height="28" Background="#FF26E21D"/>
+        <Button x:Name="btn4" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="279,176,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FF26E21D"/>
+
+        <Button x:Name="btn12" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="238,209,0,0" Height="28" Background="#FF26E21D"/>
+        <Button x:Name="btn14" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="320,209,0,0" Height="28" Background="#FF26E21D"/>
+        <Button x:Name="btn13" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="279,209,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FF26E21D"/>
+
+        <Button x:Name="btn21" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="238,242,0,0" Height="28" Background="#FF26E21D"/>
+        <Button x:Name="btn23" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="320,242,0,0" Height="28" Background="#FF26E21D"/>
+        <Button x:Name="btn22" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="279,242,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FF26E21D"/>
+
+        <Button x:Name="btn6" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="364,176,0,0" Height="28"/>
+        <Button x:Name="btn8" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="446,176,0,0" Height="28"/>
+        <Button x:Name="btn7" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="405,176,0,0" Height="28" RenderTransformOrigin="2.423,0.671"/>
+
+        <Button x:Name="btn15" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="364,209,0,0" Height="28"/>
+        <Button x:Name="btn17" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="446,209,0,0" Height="28"/>
+        <Button x:Name="btn16" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="405,209,0,0" Height="28" RenderTransformOrigin="2.423,0.671"/>
+
+        <Button x:Name="btn24" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="364,242,0,0" Height="28"/>
+        <Button x:Name="btn26" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="446,242,0,0" Height="28"/>
+        <Button x:Name="btn25" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="405,242,0,0" Height="28" RenderTransformOrigin="2.423,0.671"/>
+
+        <Button x:Name="btn27" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="113,276,0,0" Height="28" Background="#FFE4DC8D"/>
+        <Button x:Name="btn29" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="195,276,0,0" Height="28" Background="#FFE4DC8D"/>
+        <Button x:Name="btn28" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="154,276,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FFE4DC8D"/>
+
+        <Button x:Name="btn36" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="113,309,0,0" Height="28" Background="#FFE4DC8D"/>
+        <Button x:Name="btn38" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="195,309,0,0" Height="28" Background="#FFE4DC8D"/>
+        <Button x:Name="btn37" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="154,309,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FFE4DC8D"/>
+
+        <Button x:Name="btn45" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="113,342,0,0" Height="28" Background="#FFE4DC8D"/>
+        <Button x:Name="btn47" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="195,342,0,0" Height="28" Background="#FFE4DC8D"/>
+        <Button x:Name="btn46" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="154,342,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FFE4DC8D"/>
+
+        <Button x:Name="btn30" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="238,276,0,0" Height="28" Background="#FFEB0DF5"/>
+        <Button x:Name="btn32" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="320,276,0,0" Height="28" Background="#FFEB0DF5"/>
+        <Button x:Name="btn31" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="279,276,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FFEB0DF5"/>
+
+        <Button x:Name="btn39" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="238,309,0,0" Height="28" Background="#FFEB0DF5"/>
+        <Button x:Name="btn41" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="320,309,0,0" Height="28" Background="#FFEB0DF5"/>
+        <Button x:Name="btn40" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="279,309,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FFEB0DF5"/>
+
+        <Button x:Name="btn48" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="238,342,0,0" Height="28" Background="#FFEB0DF5"/>
+        <Button x:Name="btn50" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="320,342,0,0" Height="28" Background="#FFEB0DF5"/>
+        <Button x:Name="btn49" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="279,342,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FFEB0DF5"/>
+
+        <Button x:Name="btn33" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="364,276,0,0" Height="28" Background="#FFE6DA90"/>
+        <Button x:Name="btn35" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="446,276,0,0" Height="28" Background="#FFE6DA90"/>
+        <Button x:Name="btn34" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="405,276,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FFE6DA90"/>
+
+        <Button x:Name="btn42" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="364,309,0,0" Height="28" Background="#FFE6DA90"/>
+        <Button x:Name="btn44" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="446,309,0,0" Height="28" Background="#FFE6DA90"/>
+        <Button x:Name="btn43" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="405,309,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FFE6DA90"/>
+
+        <Button x:Name="btn51" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="364,342,0,0" Height="28" Background="#FFE6DA90"/>
+        <Button x:Name="btn53" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="446,342,0,0" Height="28" Background="#FFE6DA90"/>
+        <Button x:Name="btn52" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="405,342,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FFE6DA90"/>
+
+        <Button x:Name="btn54" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="113,376,0,0" Height="28"/>
+        <Button x:Name="btn56" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="195,376,0,0" Height="28"/>
+        <Button x:Name="btn55" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="154,376,0,0" Height="28" RenderTransformOrigin="2.423,0.671"/>
+
+        <Button x:Name="btn63" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="113,409,0,0" Height="28"/>
+        <Button x:Name="btn65" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="195,409,0,0" Height="28"/>
+        <Button x:Name="btn64" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="154,409,0,0" Height="28" RenderTransformOrigin="2.423,0.671"/>
+
+        <Button x:Name="btn72" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="113,442,0,0" Height="28"/>
+        <Button x:Name="btn74" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="195,442,0,0" Height="28"/>
+        <Button x:Name="btn73" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="154,442,0,0" Height="28" RenderTransformOrigin="2.423,0.671"/>
+
+        <Button x:Name="btn57" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="238,376,0,0" Height="28" Background="#FF26E21D"/>
+        <Button x:Name="btn59" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="320,376,0,0" Height="28" Background="#FF26E21D"/>
+        <Button x:Name="btn58" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="279,376,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FF26E21D"/>
+
+        <Button x:Name="btn66" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="238,409,0,0" Height="28" Background="#FF26E21D"/>
+        <Button x:Name="btn68" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="320,409,0,0" Height="28" Background="#FF26E21D"/>
+        <Button x:Name="btn67" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="279,409,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FF26E21D"/>
+
+        <Button x:Name="btn75" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="238,442,0,0" Height="28" Background="#FF26E21D"/>
+        <Button x:Name="btn77" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="320,442,0,0" Height="28" Background="#FF26E21D"/>
+        <Button x:Name="btn76" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="279,442,0,0" Height="28" RenderTransformOrigin="2.423,0.671" Background="#FF26E21D"/>
+
+        <Button x:Name="btn60" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="364,376,0,0" Height="28"/>
+        <Button x:Name="btn62" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="446,376,0,0" Height="28"/>
+        <Button x:Name="btn61" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="405,376,0,0" Height="28" RenderTransformOrigin="2.423,0.671"/>
+
+        <Button x:Name="btn69" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="364,409,0,0" Height="28"/>
+        <Button x:Name="btn71" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="446,409,0,0" Height="28"/>
+        <Button x:Name="btn70" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="405,409,0,0" Height="28" RenderTransformOrigin="2.423,0.671"/>
+
+        <Button x:Name="btn78" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="364,442,0,0" Height="28"/>
+
+        <Button x:Name="btn79" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="405,442,0,0" Height="28" RenderTransformOrigin="2.423,0.671"/>
+        <Button x:Name="btn80" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="36" Margin="446,442,0,0" Height="28" RenderTransformOrigin="2.423,0.671"/>
+        <StackPanel x:Name="spOption" Margin="527,124,26,71" Orientation="Vertical" Visibility="Hidden">
+            <Button x:Name="btnOp1" Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Height="35" Click="Option_Click"/>
+            <Button x:Name="btnOp2" Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Height="35" Click="Option_Click"/>
+
+            <Button x:Name="btnOp3" Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Height="35" Click="Option_Click"/>
+            <Button x:Name="btnOp4" Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Height="35" Click="Option_Click"/>
+            <Button x:Name="btnOp5" Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Height="35" Click="Option_Click"/>
+            <Button x:Name="btnOp6" Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Height="35" Click="Option_Click"/>
+            <Button x:Name="btnOp7" Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Height="35" Click="Option_Click"/>
+            <Button x:Name="btnOp8" Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Height="35" Click="Option_Click"/>
+            <Button x:Name="btnOp9" Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="42" Height="35" Click="Option_Click"/>
+        </StackPanel>
+        <Button x:Name="btnNewGame" Content="New Game" HorizontalAlignment="Left" Margin="263,55,0,0" VerticalAlignment="Top" Width="75" Click="btnNewGame_Click"/>
+        <Button x:Name="btnEasy" Content="Easy" HorizontalAlignment="Left" Margin="154,109,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="btnEasy_Click"/>
+        <Button x:Name="btnHard" Content="Hard" HorizontalAlignment="Left" Margin="366,109,0,0" VerticalAlignment="Top" Width="75" Click="btnHard_Click"/>
+        <Button x:Name="btnMedium" Content="Medium" HorizontalAlignment="Left" Margin="263,109,0,0" VerticalAlignment="Top" Width="75" Click="btnMedium_Click"/>
+        <Button x:Name="btnCheck" Content="Check" HorizontalAlignment="Left" Margin="263,505,0,0" VerticalAlignment="Top" Width="75" Visibility="Hidden"/>
+
+    </Grid>
+</Window>

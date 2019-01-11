@@ -1,0 +1,43 @@
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\bin\Debug\Sudoku Wpf 2.exe.config
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\bin\Debug\Sudoku Wpf 2.exe
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\bin\Debug\Sudoku Wpf 2.pdb
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.csprojResolveAssemblyReference.cache
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\MainWindow.g.cs
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\App.g.cs
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2_MarkupCompile.cache
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2_MarkupCompile.lref
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\MainWindow.baml
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.g.resources
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku_Wpf_2.Properties.Resources.resources
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.csproj.GenerateResource.Cache
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.exe
+C:\Users\Naum\Desktop\Home Work\Genie Action\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.pdb
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\bin\Debug\Sudoku Wpf 2.exe.config
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.exe
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.pdb
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\bin\Debug\Sudoku Wpf 2.exe
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\bin\Debug\Sudoku Wpf 2.pdb
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.csprojResolveAssemblyReference.cache
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\MainWindow.g.cs
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\App.g.cs
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2_MarkupCompile.cache
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2_MarkupCompile.lref
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\MainWindow.baml
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.g.resources
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku_Wpf_2.Properties.Resources.resources
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 2\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.csproj.GenerateResource.Cache
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\bin\Debug\Sudoku Wpf 2.exe.config
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.exe
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.pdb
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\bin\Debug\Sudoku Wpf 2.exe
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\bin\Debug\Sudoku Wpf 2.pdb
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2_MarkupCompile.cache
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2_MarkupCompile.lref
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.g.resources
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\obj\Debug\Sudoku_Wpf_2.Properties.Resources.resources
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.csproj.GenerateResource.Cache
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\obj\Debug\Views\MainWindow.baml
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\obj\Debug\App.g.cs
+C:\Users\Naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.csproj.CoreCompileInputs.cache
+C:\Users\naum\Desktop\Home Work\Sudoku Wpf 3\Sudoku Wpf 2\obj\Debug\Sudoku Wpf 2.csprojAssemblyReference.cache
